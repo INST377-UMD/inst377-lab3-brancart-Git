@@ -1,4 +1,36 @@
 body {
     background-color: rgb(143, 181, 176);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.header {
+    background-color: rgb(48, 132, 165);
+    color: rgb(245, 245, 245);
+    padding: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#main_nav {
+    background-color: rgb(53, 190, 202);
+    text-align: left;
+    
+}
+
+/* This hide the link underline. I had to look up online on achieving this. 
+    source: https://stackoverflow.com/questions/5233316/disable-link-highlighting*/
+#main_nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main_nav li {
+    display: inline-block;
+    position: relative;
+    padding: 8px 16px;
+}
+
+#main_nav li:hover {
+    background-color: gray;
+    color: white;
 }
