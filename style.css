@@ -61,6 +61,12 @@ body {
     border-radius: 8px;
 }
 
+/* Adding hoover effect to the rules box*/
+#rules:hover {
+    background-color: #F6AA1C;
+    color: #941B0C;
+}
+
 .footer {
     background-color: #BC3908;
     color: white;
