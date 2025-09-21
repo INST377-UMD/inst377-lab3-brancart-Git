@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <header>Rock, Paper, Scissors</header>
+        </div>
+
+        <!--Navigation-->
+            <nav id = "main_nav">
+                <ul>
+                    <li>
+                        <a href="https://www.testudo.umd.edu/">Testudo</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1&ab_channel=Duran">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://umd.edu/">University of Maryland</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--Main Content Area-->
+            <div class="main_content">
+                <h1>Welcome to Rock, Paper, Scissors!</h2>
+                <div class="content-box">
+                    <h2>Fill the Following:</h2>
+                    <form>
+                        <!--User will put there name and select their choice from a dropdown menu-->
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required><br><br>
+                        <label for="choose">Choose:</label>
+                        <select name="choices" required>
+                            <option value="None">--Please choose an option--</option>
+                            <option value="rock">Rock</option>
+                            <option value="paper">Paper</option>
+                            <option value="scissors">Scissors</option>
+                        </select><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <!--Aside-->
+            <aside id="rules">
+                <h2>Rules</h2>
+                <p>You must choose Rock, Paper, or Scissors.</p>
+                <p>Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</p>
+                <p>If both players choose the same, it's a tie!</p>
+                <p>However, is just you who will be doing the choosing!</p>
+            </aside>
+
+            <!--Footer-->
+            <footer>
+                <div class="footer">
+                    <p>Copyright &copy; 2025 Rock, Paper, Scissors</p>
+                </div>
+            </footer>
+    </body>
+</html>

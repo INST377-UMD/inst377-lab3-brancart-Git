@@ -1,0 +1,86 @@
+body {
+    background-color: #621708;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #BC3908;
+    color: rgb(245, 245, 245);
+    padding: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#main_nav {
+    background-color: #BC3908;
+    text-align: left;
+    
+}
+
+/* This hide the link underline. I had to look up online on achieving this. 
+    source: https://stackoverflow.com/questions/5233316/disable-link-highlighting*/
+#main_nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main_nav li {
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding: 8px 16px;
+}
+
+#main_nav li:hover {
+    background-color: gray;
+    color: white;
+}
+
+.content-box{
+    background-color: #BC3908;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    height: 25%;
+}
+
+.main_content {
+    color: white;
+    width: 70%;
+    float: left;
+}
+
+#rules {
+    text-align: center;
+    background-color: #BC3908;
+    color: white;
+    padding: 10px;
+    margin-left: 70%;
+    height: 39%;
+    border-radius: 8px;
+}
+
+/* Adding hoover effect to the rules box*/
+#rules:hover {
+    background-color: #F6AA1C;
+    color: #941B0C;
+}
+
+.footer {
+    background-color: #BC3908;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+input[type="text"] {
+  width: 150px;
+  transition: width 0.3s ease;
+}
+
+input[type="text"]:focus {
+  width: 180px;
+}
