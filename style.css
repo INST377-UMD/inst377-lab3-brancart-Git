@@ -50,11 +50,31 @@ body {
     width: 70%;
     float: left;
 }
+
 #rules {
     text-align: center;
     background-color: #BC3908;
     color: white;
+    padding: 10px;
     margin-left: 70%;
-    height: 42%;
+    height: 39%;
     border-radius: 8px;
+}
+
+.footer {
+    background-color: #BC3908;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+input[type="text"] {
+  width: 150px;
+  transition: width 0.3s ease;
+}
+
+input[type="text"]:focus {
+  width: 180px;
 }
